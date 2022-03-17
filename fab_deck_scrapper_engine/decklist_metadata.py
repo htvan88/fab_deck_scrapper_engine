@@ -8,8 +8,12 @@ class DecklistMetadata:
         self.format = format
         self.player = player
         self.event_type = event_type
-        self.data = date
+        self.date = date
 
 
     def print_str(self) -> str:
-        return f'{self.deck_url}, {self.hero}, {self.ranking}, {self.format}, {self.player}, {self.event_type}, {self.data}'
+        return f'{self.deck_url}, {self.hero}, {self.ranking}, {self.format}, {self.player}, {self.event_type}, {self.date}'
+
+    @staticmethod
+    def print_headers() -> str:
+        return 'deck_url, hero, ranking, format, player, event_type, date'
