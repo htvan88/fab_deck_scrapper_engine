@@ -1,6 +1,4 @@
 from decklist_metadata import DecklistMetadata
-import json
-
 
 # temp storage to flat file until database is set up
 def store_metadata(metadata_list:list):
@@ -8,3 +6,5 @@ def store_metadata(metadata_list:list):
         file.write(DecklistMetadata.print_headers() + '\n')
         for decklist_metadata in metadata_list:
             file.write(decklist_metadata.print_str() + '\n')
+
+

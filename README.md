@@ -2,8 +2,8 @@
 Get the Deck lists from FAB Events
 
 
-install mpackages
-`pip install -r requirements.txt`
+install packages
+`pip3 install -r requirements.txt`
 
 
 TODO

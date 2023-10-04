@@ -1,5 +1,4 @@
 from decklist_metadata import DecklistMetadata
-from pprint import pprint
 import requests
 import html_to_json
 import util
